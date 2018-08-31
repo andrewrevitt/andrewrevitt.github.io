@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+<url>
+  <loc>http://andrewrevitt.com/</loc>
+  <priority>1.00</priority>
+</url>
+
+<url>
+  <loc>http://andrewrevitt.com/about/index.html</loc>
+  <priority>0.50</priority>
+</url>
+
+<url>
+  <loc>http://andrewrevitt.com/contact/index.html</loc>
+  <priority>0.50</priority>
+</url>
+
+<url>
+  <loc>http://andrewrevitt.com/projects/codecademy.html</loc>
+  <priority>0.80</priority>
+</url>
+
+<url>
+  <loc>http://andrewrevitt.com/projects/concorde.html</loc>
+  <priority>0.20</priority>
+</url>
+
+<url>
+  <loc>http://andrewrevitt.com/projects/factory-jackson.html</loc>
+  <priority>0.20</priority>
+</url>
+
+<url>
+  <loc>http://andrewrevitt.com/projects/gstaad-poster.html</loc>
+  <priority>0.30</priority>
+</url>
+
+<url>
+  <loc>http://andrewrevitt.com/projects/jon-olsson.html</loc>
+  <priority>0.20</priority>
+</url>
+
+<url>
+  <loc>http://andrewrevitt.com/projects/jr-card.html</loc>
+  <priority>0.80</priority>
+</url>
+
+<url>
+  <loc>http://andrewrevitt.com/projects/julia-revitt-photography.html</loc>
+  <priority>0.40</priority>
+</url>
+
+<url>
+  <loc>http://andrewrevitt.com/projects/rennsport-poster.html</loc>
+  <priority>0.70</priority>
+</url>
+
+<url>
+  <loc>http://andrewrevitt.com/projects/rogerdubius-poster.html</loc>
+  <priority>0.60</priority>
+</url>
+
+<url>
+  <loc>http://andrewrevitt.com/projects/sedex.html</loc>
+  <priority>0.80</priority>
+</url>
+
+<url>
+  <loc>http://andrewrevitt.com/projects/spectolabs.html</loc>
+  <priority>0.80</priority>
+</url>
+
+<url>
+  <loc>http://andrewrevitt.com/projects/super-alpine-drivetribe.html</loc>
+  <priority>0.60</priority>
+</url>
+
+<url>
+  <loc>http://andrewrevitt.com/projects/super-alpine-vsco.html</loc>
+  <priority>0.60</priority>
+</url>
+
+<url>
+  <loc>http://andrewrevitt.com/projects/super-alpine-magazine.html</loc>
+  <priority>0.80</priority>
+</url>
+
+<url>
+  <loc>http://andrewrevitt.com/projects/zerohistory-poster.html</loc>
+  <priority>0.20</priority>
+</url>
+
+</urlset>
