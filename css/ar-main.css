@@ -24,7 +24,7 @@ a:hover {color: #111; }
 img     {width: 100%;}
 
 header          {padding-top:20px;}
-header h1 		{background: url(../img/ar-logo.png) no-repeat center center;background-size:cover;width:100px;height:100px;display:block;font-size:0;color:#fff;margin:0 auto;
+header h1 		{background: url(../img/ar-logo.gif) no-repeat center center;background-size:cover;width:100px;height:100px;display:block;font-size:0;color:#fff;margin:0 auto;
                 border-radius: 100px;border:5px solid #eee;}
 header h2		{font-size: 13px;  line-height:18px; color: #999;}
 header h3		{font-size: 13px;  line-height:18px;max-width:100px; margin:0 auto; padding: 0;  }
