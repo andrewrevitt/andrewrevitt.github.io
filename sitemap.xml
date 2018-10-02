@@ -21,6 +21,11 @@
 </url>
 
 <url>
+  <loc>http://andrewrevitt.com/projects/chamonix.html</loc>
+  <priority>0.90</priority>
+</url>
+
+<url>
   <loc>http://andrewrevitt.com/projects/codecademy.html</loc>
   <priority>0.80</priority>
 </url>
@@ -87,7 +92,7 @@
 
 <url>
   <loc>http://andrewrevitt.com/projects/super-alpine-magazine.html</loc>
-  <priority>0.80</priority>
+  <priority>0.70</priority>
 </url>
 
 <url>
