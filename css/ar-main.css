@@ -2,14 +2,14 @@
 html,body,main,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,figure,footer,header,menu,nav,section,menu,time,mark,audio,video {margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}
 body,html{height:100%}
 body {background: #fefefe;color:#333;font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;font-weight: normal; font-size: 1em;text-rendering:optimizeLegibility;-webkit-text-size-adjust:none;}
-h1, h2, h3, h4, h5, h6 {line-height: 1em; font-weight:bold; color: #222;}
+h1, h2, h3, h4, h5, h6 {line-height: 1em; color: #222;}
 h1 {font-size:4.236em;letter-spacing:-0.02em;}
 h2 {font-size:2.618em;padding:20px 0;letter-spacing:-0.01em;}
 h3 {font-size:1.618em;padding:20px 0;}
 h4 {font-size:1.418em;padding:20px 0;}
 h5 {font-size:1.218em;padding:20px 0;}
 h6 {font-size:1em;padding:0;letter-spacing:0;text-transform:uppercase;}
-p {line-height:1.5em; margin-bottom:1.3em;max-width: 640px;}
+p {line-height:1.5em; margin-bottom:1.3em;max-width: 640px; }
 small {font-size:0.718em; line-height:1.3em;display: block;}
 ol,ul{padding:10px 0 10px 20px}
 li{margin-bottom:1.2em;line-height:1.25em;list-style-type:square;}
