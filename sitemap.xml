@@ -26,8 +26,13 @@
 </url>
 
 <url>
-  <loc>http://andrewrevitt.com/projects/codecademy.html</loc>
+  <loc>http://andrewrevitt.com/projects/linde-werdelin.html</loc>
   <priority>0.80</priority>
+</url>
+
+<url>
+  <loc>http://andrewrevitt.com/projects/codecademy.html</loc>
+  <priority>0.70</priority>
 </url>
 
 <url>

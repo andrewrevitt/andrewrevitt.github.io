@@ -1,24 +1,24 @@
 @media all {
 html,body,main,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,figure,footer,header,menu,nav,section,menu,time,mark,audio,video {margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}
 body,html{height:100%}
-body {background: #fefefe;color:#333;font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;font-weight: normal; font-size: 1em;text-rendering:optimizeLegibility;-webkit-text-size-adjust:none;}
-h1, h2, h3, h4, h5, h6 {line-height: 1em; color: #222;}
-h1 {font-size:4.236em;letter-spacing:-0.02em;}
-h2 {font-size:2.618em;padding:20px 0;letter-spacing:-0.01em;}
+body {background: #fefefe;color:#333;font-weight: normal; font-size: 1em;text-rendering:optimizeLegibility;-webkit-text-size-adjust:none;}
+h1, h2, h3, h4, h5, h6 {line-height: 1em; color: #222; font-family:system-ui, 'Segoe UI', Roboto, sans-serif;}
+h1 {}
+h2 {font-size:2em;padding:20px 0;letter-spacing:-0.01em;text-transform: uppercase;}
 h3 {font-size:1.618em;padding:20px 0;}
 h4 {font-size:1.418em;padding:20px 0;}
 h5 {font-size:1.218em;padding:20px 0;}
 h6 {font-size:1em;padding:0;letter-spacing:0;text-transform:uppercase;}
-p {line-height:1.5em; margin-bottom:1.3em;max-width: 640px; }
+p {margin-bottom:1.3em;max-width: 660px; font:19px georgia, serif; line-height:30px; }
 small {font-size:0.718em; line-height:1.3em;display: block;}
 ol,ul{padding:10px 0 10px 20px}
-li{margin-bottom:1.2em;line-height:1.25em;list-style-type:square;}
+li{margin-bottom:1.2em;line-height:1.25em;list-style-type:square; font-family:system-ui, 'Segoe UI', Roboto, sans-serif; text-transform: uppercase;}
 em{font-weight:bold;font-style:italic}
 b{font-weight:bold}
-blockquote{font-size:1.218em;line-height:1.4em;margin:40px 0 10px 0;font-style:normal;quotes:"\201C""\201D""\2018""\2019"; max-width: 780px;}
+blockquote{font:18px georgia, serif; line-height:28px; margin:40px 0 10px 0;font-style:normal;quotes:"\201C""\201D""\2018""\2019"; max-width: 780px;}
 blockquote:before{color:#ccc;content:open-quote;font-size:2.5em;line-height:.1em;margin-right:.1em;vertical-align:-.3em}
 blockquote:after{color:#ccc;content:close-quote;font-size:2.5em;line-height:.1em;margin-left:.1em;vertical-align:-.3em}
-blockquote+p{font-size:1.318em;margin:10px 0 10px 0px;}
+blockquote+p{font-size:16px;margin:10px 0 10px 0px;font-family:system-ui, 'Segoe UI', Roboto, sans-serif; text-transform: uppercase;}
 a{color:#999;text-decoration:none;transition:.25s;outline: none;}
 a:hover {color: #111; }
 img     {width: 100%;}
@@ -30,13 +30,15 @@ header h2		{font-size: 13px;  line-height:18px; color: #999;}
 header h3		{font-size: 13px;  line-height:18px;max-width:100px; margin:0 auto; padding: 0;  }
 
 nav				{margin:50px auto;}
-nav ul, nav li  {list-style: none;padding:0; text-transform: uppercase;}
+nav ul, nav li  {list-style: none;padding:0; text-transform: uppercase; font-family:system-ui, 'Segoe UI', Roboto, sans-serif;}
 nav li          {padding:0;font-size:.818em;}
 
 section 		{width:300px; height:100vh; padding:20px; position: fixed; text-align: center;}
 main            {width:calc(100% - 300px); margin-left: 300px; }
-
-footer          {position: absolute; bottom: 20px; left:0; padding:20px; text-align: left;color: #999;}
+.home           {background:url(../img/palm.jpg) center center no-repeat; background-size: cover; height: 100vh;}
+.home p         {font-size: 0; color:#fff; opacity: 0;}
+.text p         {}
+footer          {position: absolute; bottom: 20px; left:0; padding:20px; text-align: left;color: #999;font-family:system-ui, 'Segoe UI', Roboto, sans-serif;}
 
 
 .projects div  	    {width: 33.333%; float: left; position: relative;}
@@ -58,6 +60,7 @@ footer          {position: absolute; bottom: 20px; left:0; padding:20px; text-al
     section         {width:100vw; height:auto; padding:20px; position:relative; }
     footer          {position: relative; bottom: auto; left:auto; padding:20px; text-align: center;}
     main,.text      {width:100vw; margin-left: 0;}
+    .home           {height: 40vh; width: 70vw; margin:0 auto;}
     .text           {padding:20px;}  
     h1{text-align:center;font-size:2em;width:auto;}
 	h2{font-size:1.718em;padding-top:0}
@@ -76,4 +79,5 @@ footer          {position: absolute; bottom: 20px; left:0; padding:20px; text-al
     .projects h4 	{}
     .clients        {column-count: 2;column-gap: 10px;} 
     .right 			{float: right; width: 150px; border-radius: 150px; }
+    .home           {display: none;}
 }
