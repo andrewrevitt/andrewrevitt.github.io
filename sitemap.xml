@@ -11,6 +11,11 @@
 </url>
 
 <url>
+  <loc>http://andrewrevitt.com/store/index.html</loc>
+  <priority>0.90</priority>
+</url>
+
+<url>
   <loc>http://andrewrevitt.com/about/index.html</loc>
   <priority>0.50</priority>
 </url>

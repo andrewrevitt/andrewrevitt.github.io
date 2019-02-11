@@ -56,9 +56,10 @@ footer          {position: absolute; bottom: 20px; left:0; padding:20px; text-al
     .text           {width:calc(100% - 300px); margin-left: 300px;}
 }
 @media screen and (max-width:1000px) {
-	
+    header      {padding-top: 5px;}
+	header h3          {max-width: 90%;}
     section         {width:100vw; height:auto; padding:20px; position:relative; }
-    footer          {position: relative; bottom: auto; left:auto; padding:20px; text-align: center;}
+    footer          {position: relative; bottom: auto; left:auto; padding:10px; text-align: center;}
     main,.text      {width:100vw; margin-left: 0;}
     .home           {height: 40vh; width: 70vw; margin:0 auto;}
     .text           {padding:20px;}  
@@ -80,4 +81,7 @@ footer          {position: absolute; bottom: 20px; left:0; padding:20px; text-al
     .clients        {column-count: 2;column-gap: 10px;} 
     .right 			{float: right; width: 150px; border-radius: 150px; }
     .home           {display: none;}
+    nav             {margin:30px auto 10px auto;}
+    nav ul, nav li  {list-style: none;padding:0 5px; text-transform: uppercase; font-family:system-ui, 'Segoe UI', Roboto, sans-serif; display: inline-block;}
+    nav li 
 }
