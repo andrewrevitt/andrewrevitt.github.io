@@ -25,6 +25,12 @@
   <priority>0.50</priority>
 </url>
 
+
+<url>
+  <loc>http://andrewrevitt.com/projects/tshirts.html</loc>
+  <priority>0.90</priority>
+</url>
+
 <url>
   <loc>http://andrewrevitt.com/projects/chamonix.html</loc>
   <priority>0.90</priority>
