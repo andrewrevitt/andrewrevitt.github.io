@@ -56,7 +56,7 @@ footer          {position: absolute; bottom: 20px; left:0; padding:20px; text-al
 .projects a         {opacity:.9; display: block;}
 .projects a:hover   {opacity:1;}
 .projects h4        {position: absolute; bottom:0; left:0; color: #fff; padding:10px; font-size: 1em; background-color:#000;width: 60%; text-transform: uppercase;}
-file:///Users/andrewrevitt/Dropbox/AndrewRevitt/andrewrevitt/andrewrevitt.github.io/projects/tshirts.html.text               {margin:0 auto;  max-width: 1000px; padding:20px 0 20px 50px;}
+.text               {margin:0 auto;  max-width: 1000px; padding:20px 0 20px 50px;}
 .text img           {margin-bottom: 20px;}
 .clients            {padding:0;column-count: 3;column-gap: 60px;margin: 20px 0 20px 20px; width: 100%; max-width: 100%;}
 
@@ -87,13 +87,14 @@ file:///Users/andrewrevitt/Dropbox/AndrewRevitt/andrewrevitt/andrewrevitt.github
     blockquote,blockquote+p{margin-left:0;max-width:100%;font-size:1em}  
 }
 
-@media screen and (max-width:720px) {
+@media screen and (max-width:800px) {
     
     .projects div   {float:none; width:100%; position: relative;}
     .projects img   {float: none; display: block; }
     .projects h4    {}
     .clients        {column-count: 2;column-gap: 10px;} 
-    .right          {float: right; width: 150px; border-radius: 150px; }
+    .right          {float: right; width: 100px; border-radius: 100px; }
     .home           {display: none;}
-   
+    main.text            {width:100%; margin-left:0; }
+    
 }
