@@ -9,5 +9,14 @@
   <loc>http://andrewrevitt.com/</loc>
   <priority>1.00</priority>
 </url>
+<url>
+  <loc>http://andrewrevitt.com/projects/alpes-maritimes.html</loc>
+  <priority>0.90</priority>
+</url>
+
+<url>
+  <loc>http://andrewrevitt.com/projects/chamonix.html</loc>
+  <priority>0.80</priority>
+</url>
 
 </urlset>
