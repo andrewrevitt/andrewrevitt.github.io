@@ -2,9 +2,6 @@
     font-family: 'DINRegular';
     src: url('../fonts/din-regular-webfont.woff') format('woff');}
 @font-face {
-    font-family: 'DINBold';
-    src: url('../fonts/din-bold-webfont.woff') format('woff');}
-@font-face {
 	font-family: 'Domaine Display Regular';
 	font-style: normal;
 	font-weight: normal;
@@ -17,16 +14,16 @@ html,body,main,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,ad
 body,html{height:100%}
 body {background: #eee;color:#777;font-weight: normal; font-size: 1em;text-rendering:optimizeLegibility;-webkit-text-size-adjust:none; font-family:  DINRegular, Helvetica, system-ui, 'Segoe UI', Roboto, sans-serif;}
 h1, h2, h3, h4, h5, h6 {line-height: 1em; color: #000;  font-weight: normal; font-style: normal;}
-h1 {font-family: Domaine Display Regular; font-size: 46px; line-height: 56px; margin:20px 0; }
+h1 {font-family: 'Domaine Display Regular', Georgia, Serif; font-size: 46px; line-height: 56px; margin:20px 0; }
 h1 a, h6 a {color:#000;}
-h6 {font-family: Helvetica, sans-serif; font-size:13px;text-transform:uppercase; color: #000; letter-spacing: 2px; font-weight: bold; text-align: center;margin:100px 0 20px 0;}
+h6 {font-family: Helvetica, system-ui, 'Segoe UI', Roboto, sans-serif;; font-size:13px;text-transform:uppercase; color: #000; letter-spacing: 2px; font-weight: bold; text-align: center;margin:100px 0 20px 0;}
 hr.redline {border-top:3px solid #c00; width: 30px; outline: none;}
 p {font-size: 17px; line-height:27px;  font-weight: normal; font-style: normal; margin:20px 0;}
 ol,ul{padding:10px 0 10px 20px}
 li{margin-bottom:1.2em;line-height:1.25em;list-style-type:square;  font-weight: normal; font-style: normal; text-transform: uppercase;}
 blockquote{  line-height:28px; margin:40px 0 10px 0;font-style:normal;quotes:"\201C""\201D""\2018""\2019"; max-width: 780px;}
-blockquote:before{color:#ccc;font-family:georgia;content:open-quote;font-size:2.5em;line-height:.1em;margin-right:.1em;vertical-align:-.3em}
-blockquote:after{color:#ccc;font-family:georgia;content:close-quote;font-size:2.5em;line-height:.1em;margin-left:.1em;vertical-align:-.3em}
+blockquote:before{color:#ccc;font-family:Georgia, Serif;content:open-quote;font-size:2.5em;line-height:.1em;margin-right:.1em;vertical-align:-.3em}
+blockquote:after{color:#ccc;font-family:Georgia, Serif;content:close-quote;font-size:2.5em;line-height:.1em;margin-left:.1em;vertical-align:-.3em}
 blockquote+p{font-size:16px;margin:10px 0 10px 0px; font-weight: normal; font-style: normal; text-transform: uppercase;}
 a{color:#900;text-decoration:none;transition:.25s;outline: none;}
 a:hover {color: #000; text-decoration: underline; }
@@ -37,8 +34,7 @@ section         {width:50vw; height:100vh; display: table; float: right;}
 .intro p 		{margin:20px 0;}
 .links a 		{display: inline-block; width: 50px; margin:20px 10px;}
 
-figure 			{display: table-cell; vertical-align: middle; text-align: center; margin:auto; padding: 0 5%;
-				background: url(../img/stut-lib.jpg) top center no-repeat;  background-size: cover; }
+figure 			{display: table-cell; vertical-align: middle; text-align: center; margin:auto; padding: 0 5%; background: url('../img/stut-lib.jpg') top center no-repeat;  background-size: cover; }
 
 .text               {margin:0 auto;  max-width: 900px; padding:100px 20px; text-align: center;}
 .round				{border-radius: 200px; width: 200px; height: 200px; margin: 20px 0; border:10px solid #ccc;}
