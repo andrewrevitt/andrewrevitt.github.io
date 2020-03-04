@@ -12,7 +12,7 @@
 @media all {
 html,body,main,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,figure,footer,header,menu,nav,section,menu,time,mark,audio,video {margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}
 body,html{height:100%}
-body {background: #eee;color:#777;font-weight: normal; font-size: 1em;text-rendering:optimizeLegibility;-webkit-text-size-adjust:none; font-family:  DINRegular, Helvetica, system-ui, 'Segoe UI', Roboto, sans-serif;}
+body {background: #fff;color:#777;font-weight: normal; font-size: 1em;text-rendering:optimizeLegibility;-webkit-text-size-adjust:none; font-family:  DINRegular, Helvetica, system-ui, 'Segoe UI', Roboto, sans-serif;}
 h1, h2, h3, h4, h5, h6 {line-height: 1em; color: #000;  font-weight: normal; font-style: normal;}
 h1 {font-family: 'Domaine Display Regular', Georgia, Serif; font-size: 46px; line-height: 56px; margin:20px 0; }
 h1 a, h6 a {color:#000;}
@@ -34,7 +34,7 @@ section         {width:50vw; height:100vh; display: table; float: right;}
 .intro p 		{margin:20px 0;}
 .links a 		{display: inline-block; width: 50px; margin:20px 10px;}
 
-figure 			{display: table-cell; vertical-align: middle; text-align: center; margin:auto; padding: 0 5%; background: url('../img/stut-lib.jpg') top center no-repeat;  background-size: cover; }
+figure 			{width:50vw; height:100vh; display: table;background: url('../img/mags.jpg') top center no-repeat;  background-size: cover; position: fixed; }
 
 .text               {margin:0 auto;  max-width: 900px; padding:100px 20px; text-align: center;}
 .round				{border-radius: 200px; width: 200px; height: 200px; margin: 20px 0; border:10px solid #ccc;}
@@ -42,8 +42,11 @@ figure 			{display: table-cell; vertical-align: middle; text-align: center; marg
 
 
 
-
-@media screen and (max-width:1000px) {
+@media screen and (max-width:1200px) {
+    section {width: 70vw;}
+    figure {width: 30vw;}
+}
+@media screen and (max-width:900px) {
 
     section         {width:100vw; height:auto; display: table; float: none; padding:0;}
     .intro          {padding: 0 20px; }
