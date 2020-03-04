@@ -52,7 +52,8 @@ figure 			{width:50vw; height:100vh; display: table;background: url('../img/mags
     .intro          {padding: 0 20px; }
     figure {display: none;}
     .clients            {padding:0;column-count: 2;column-gap: 30px;margin: 40px 0 60px 20px; width: 100%; max-width: 100%; text-align: left;}
-    .text               { padding:0 20px;;}
+    .text               { padding:0 20px;}
+    h1 {font-size: 36px; line-height: 1.2em;}
 
     
 }
