@@ -38,7 +38,7 @@ figure 			{width:50vw; height:100vh; display: table;background: url('../img/mags
 
 .text               {margin:0 auto;  max-width: 900px; padding:100px 20px; text-align: center;}
 .round				{border-radius: 180px; width: 180px; height: 180px; margin: 20px 0; border:8px solid #eee;}
-.clients            {padding:0;column-count: 3;column-gap: 60px;margin: 40px 0 60px 20px; width: 100%; max-width: 100%; text-align: left;}
+.clients            {padding:0;column-count: 3;column-gap: 20px;margin: 40px 0 60px 0; width: 100%; max-width: 100%; text-align: left;}
 
 
 
@@ -51,7 +51,7 @@ figure 			{width:50vw; height:100vh; display: table;background: url('../img/mags
     section         {width:100vw; height:auto; display: table; float: none; padding:0;}
     .intro          {padding: 0 20px; }
     figure {display: none;}
-    .clients            {padding:0;column-count: 2;column-gap: 30px;margin: 40px 0 60px 20px; width: 100%; max-width: 100%; text-align: left;}
+    .clients            {padding:0;column-count: 2;column-gap: 20px;margin: 40px 0 60px 20px; width: 100%; max-width: 100%; text-align: left;}
     .text               { padding:0 20px;}
     h1 {font-size: 36px; line-height: 1.2em;}
 

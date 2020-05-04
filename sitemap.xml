@@ -11,7 +11,7 @@
 </url>
 <url>
   <loc>http://andrewrevitt.com/about/index.html</loc>
-  <priority>0.50</priority>
+  <priority>0.70</priority>
 </url>
 
 <url>
@@ -21,22 +21,27 @@
 
 <url>
   <loc>http://andrewrevitt.com/projects/momo-vero.html</loc>
+  <priority>0.80</priority>
+</url>
+
+<url>
+  <loc>http://andrewrevitt.com/projects/depth-charge-book.html</loc>
   <priority>0.90</priority>
 </url>
 
 <url>
   <loc>http://andrewrevitt.com/projects/col-de-turini-stickers.html</loc>
-  <priority>0.80</priority>
+  <priority>0.60</priority>
 </url>
 
 <url>
   <loc>http://andrewrevitt.com/projects/alpes-maritimes.html</loc>
-  <priority>0.70</priority>
+  <priority>0.50</priority>
 </url>
 
 <url>
   <loc>http://andrewrevitt.com/projects/chamonix.html</loc>
-  <priority>0.60</priority>
+  <priority>0.40</priority>
 </url>
 
 </urlset>
