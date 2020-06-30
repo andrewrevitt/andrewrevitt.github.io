@@ -1,36 +1,39 @@
-@font-face {
-	font-family: 'Domaine Display Regular';
-	font-style: normal;
-	font-weight: normal;
-	src: url('../fonts/DomaineDisp-Regular.woff') format('woff');
-	}
+
+@import url('https://rsms.me/inter/inter.css');
+
 
 @media all {
 html,body,main,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,figure,footer,header,menu,nav,section,menu,time,mark,audio,video {margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}
 body,html{height:100%}
-body {background: #fff;color:#777;font-weight: normal; font-size: 1em;text-rendering:optimizeLegibility;-webkit-text-size-adjust:none; font-family: 'Domaine Display Regular', Georgia, Serif;}
-h1, h2, h3, h4, h5, h6 { line-height: 1em; color: #000;  font-weight: normal; font-style: normal; margin:0 0 10px 0;}
-h1 { font-size: 50px; margin-top:20px; }
+body {background: #eee;color:#333;
+	font-family: Inter, Helvetica, system-ui, 'Segoe UI', Roboto, sans-serif;
+	font-weight: normal;
+	font-size: 1em; 
+	text-rendering:optimizeLegibility;-webkit-text-size-adjust:none;
+	
+	}
+h1, h2, h3, h4, h5, h6 { line-height: 1em; color: #000;  font-weight:400; font-style: normal; margin:0 0 10px 0;}
+h1 {font-size: 60px; margin-top:20px; font-weight: 700;letter-spacing: -1px;  }
 h2 {font-size: 30px;}
-h5 {font-family: Helvetica, system-ui, 'Segoe UI', Roboto, sans-serif; font-size:13px;text-transform:uppercase; letter-spacing: 3px; margin:20px 0;}
-h6 {font-family: Helvetica, system-ui, 'Segoe UI', Roboto, sans-serif; font-size:13px;text-transform:uppercase; color: #000; letter-spacing: 3px; font-weight: bold;margin:100px 0 20px 0;}
-p {font-size: 19px; line-height:30px;  font-weight: normal; font-style: normal; margin:20px 0;}
+h5 {font-size:17px; margin:20px 0; font-weight: 700; }
+h6 {font-size:13px;text-transform:uppercase; color: #000; letter-spacing: 3px;  margin:100px 0 20px 0;}
+p {font-size: 17px; line-height:27px;  font-weight: normal; font-style: normal; margin:20px 0;}
 ol,ul{padding-bottom: 20px;}
 li{margin:20px; font-size: 17px; line-height:27px;list-style-type:square;}
-blockquote{font-size: 19px; line-height:32px;  margin:40px 0 10px 0;font-style:normal;quotes:"\201C""\201D""\2018""\2019";}
+blockquote{font-size: 17px; line-height:27px;  margin:40px 0 10px 0;font-style:normal;quotes:"\201C""\201D""\2018""\2019";}
 blockquote:before{color:#ccc;content:open-quote;font-size:2.5em;line-height:.1em;margin-right:.1em;vertical-align:-.3em}
 blockquote:after{color:#ccc;content:close-quote;font-size:2.5em;line-height:.1em;margin-left:.1em;vertical-align:-.3em}
-blockquote+p{font-family: Helvetica, system-ui, 'Segoe UI', Roboto, sans-serif; font-size:13px;text-transform:uppercase; color: #444; letter-spacing: 3px; font-weight: bold;}
 hr { border: 0;height: 1px;background: #ccc;}
-a{color:#900;text-decoration:none;transition:.25s;outline: none;}
-a:hover {color: #000; text-decoration: underline; }
+a{color:#900;text-decoration:none;outline: none;}
+a:hover {color: #000; text-decoration: none;}
 h1 a, h6 a {color:#000;}
 h1 a:hover, h6 a:hover {color: #900; text-decoration: none;}
+p a:hover, li a:hover {border-bottom: 1px solid #900;}
 
 img             {width: 100%; margin-bottom: 20px;}
 section         {width:50vw; height:100vh; display: table; float: right;}
 main            {display: table-cell; vertical-align: middle;  margin:auto; padding: 0 16%; }
-figure 			{width:50vw; height:100vh; display: table;background: url('../img/mags.jpg') top center no-repeat;  background-size: cover; position: fixed; }
+figure 			{width:50vw; height:100vh; display: table;background: url('../projects/img/momo.jpg') top center no-repeat;  background-size: cover; position: fixed; }
 article         {margin:0 auto;  max-width: 860px; padding:50px 20px; }
 .columns        {display: grid; grid-template-columns: 1fr 1fr 1fr; grid-gap: 50px 50px;}
 .columns div    {display: block;}
@@ -38,13 +41,14 @@ article         {margin:0 auto;  max-width: 860px; padding:50px 20px; }
 .links a        {display: inline-block; width: 50px; margin:20px 10px;}
 .icon           {width: 30px; border-radius: 30px; margin:0;}
 
-@media screen and (max-width:1024px) {
+@media screen and (max-width:1000px) {
 
 h1          {font-size: 40px;}
+.links a 	{margin: 10px;}
 section     {width:100vw; height:auto; display: table; float: none; padding:20px 0;}
-main        {padding: 0 10px; margin:0; display: table; }
-figure      {width:95%; height:30vh; display: table;background: url('../img/mags.jpg') center center no-repeat;  background-size: cover; position: relative; margin:2.5%; }
+main        {padding:0 20px; margin:0; display: table; }
+figure      {width:100vw; height:53vh; display: table; background-size: cover; position: relative;}
 article     {padding:20px;}
-.columns    {padding:0;column-count: 2;column-gap: 20px;margin: 40px 0 60px 20px; width: 100%; max-width: 100%; text-align: left;}
+.columns        {display: grid; grid-template-columns: 1fr; grid-gap: 0 0;}
     
 }
