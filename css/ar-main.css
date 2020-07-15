@@ -5,7 +5,7 @@
 @media all {
 html,body,main,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,figure,footer,header,menu,nav,section,menu,time,mark,audio,video {margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}
 body,html{height:100%}
-body {background: #eee;color:#333;
+body {background: #fefefe;color:#333;
 	font-family: Inter, Helvetica, system-ui, 'Segoe UI', Roboto, sans-serif;
 	font-weight: normal;
 	font-size: 1em; 
@@ -24,11 +24,11 @@ blockquote{font-size: 17px; line-height:27px;  margin:40px 0 10px 0;font-style:n
 blockquote:before{color:#ccc;content:open-quote;font-size:2.5em;line-height:.1em;margin-right:.1em;vertical-align:-.3em}
 blockquote:after{color:#ccc;content:close-quote;font-size:2.5em;line-height:.1em;margin-left:.1em;vertical-align:-.3em}
 hr { border: 0;height: 1px;background: #ccc;}
-a{color:#900;text-decoration:none;outline: none;}
+a{color:#EB0202;text-decoration:none;outline: none;}
 a:hover {color: #000; text-decoration: none;}
 h1 a, h6 a {color:#000;}
-h1 a:hover, h6 a:hover {color: #900; text-decoration: none;}
-p a:hover, li a:hover {border-bottom: 1px solid #900;}
+h1 a:hover, h6 a:hover {color: #EB0202; text-decoration: none;}
+p a:hover, li a:hover {border-bottom: 1px solid #EB0202;}
 
 img             {width: 100%; margin-bottom: 20px;}
 section         {width:50vw; height:100vh; display: table; float: right;}
