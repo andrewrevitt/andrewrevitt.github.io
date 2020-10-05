@@ -13,7 +13,10 @@
   <loc>https://andrewrevitt.com/about/index.html</loc>
   <priority>0.70</priority>
 </url>
-
+<url>
+  <loc>https://andrewrevitt.com/projects/affinity-publisher-templates.html</loc>
+  <priority>0.80</priority>
+</url>
 <url>
   <loc>https://andrewrevitt.com/projects/index.html</loc>
   <priority>0.60</priority>
@@ -21,12 +24,12 @@
 
 <url>
   <loc>https://andrewrevitt.com/projects/momo-vero.html</loc>
-  <priority>0.80</priority>
+  <priority>0.70</priority>
 </url>
 
 <url>
   <loc>https://andrewrevitt.com/projects/depth-charge-book.html</loc>
-  <priority>0.90</priority>
+  <priority>0.75</priority>
 </url>
 
 <url>
