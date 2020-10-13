@@ -1,18 +1,14 @@
-
-@import url('https://rsms.me/inter/inter.css');
-
-
 @media all {
 html,body,main,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,figure,footer,header,menu,nav,section,menu,time,mark,audio,video {margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}
 body,html{height:100%}
 body {background: #fefefe;color:#333;
-	font-family: Inter, Helvetica, system-ui, 'Segoe UI', Roboto, sans-serif;
+	font-family:"Helvetica Neue", Helvetica, system-ui, 'Segoe UI', Roboto, sans-serif;
 	font-weight: normal;
 	font-size: 1em; 
 	text-rendering:optimizeLegibility;-webkit-text-size-adjust:none;
 	
 	}
-h1, h2, h3, h4, h5, h6 { line-height: 1em; color: #000;  font-weight:400; font-style: normal; margin:0 0 10px 0;}
+h1, h2, h3, h4, h5, h6 { line-height: 1em; color: #000;  font-weight:400; font-style: 700; margin:0 0 10px 0;}
 h1 {font-size: 60px; margin-top:20px; font-weight: 700;letter-spacing: -1px;  }
 h2 {font-size: 30px;}
 h5 {font-size:17px; margin:20px 0; font-weight: 700; }
@@ -33,7 +29,7 @@ p a:hover, li a:hover {border-bottom: 1px solid #EB0202;}
 img             {width: 100%; margin-bottom: 20px;}
 section         {width:50vw; height:100vh; display: table; float: right;}
 main            {display: table-cell; vertical-align: middle;  margin:auto; padding: 0 16%; }
-figure 			{width:50vw; height:100vh; display: table;background: url('../projects/img/momo.jpg') top center no-repeat;  background-size: cover; position: fixed; }
+figure 			{width:50vw; height:100vh; display: table;background: url('../img/camo.svg') top center no-repeat;  background-size: cover; position: fixed; }
 article         {margin:0 auto;  max-width: 860px; padding:50px 20px; }
 .columns        {display: grid; grid-template-columns: 1fr 1fr 1fr; grid-gap: 50px 50px;}
 .columns div    {display: block;}
