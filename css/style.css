@@ -1,0 +1,49 @@
+
+@font-face {
+  font-family: 'Antwerp';
+  src: url("../fonts/Antwerp_LightWEB.woff2") format("woff2"), url("../fonts/Antwerp_LightWEB.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal; }
+
+@font-face {
+  font-family: 'Antwerp Italic';
+  src: url("../fonts//Antwerp_LightItalicWEB.woff2") format("woff2"), url("../fonts//Antwerp_LightItalicWEB.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal; }
+
+@media all {
+html,body,main,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,figure,footer,header,menu,nav,section,menu,time,mark,audio,video {margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}
+body,html{height:100%}
+body {background: #fff; color: #1a1a1a;font-weight: normal;  font-size: 1em;text-rendering:optimizeLegibility;-webkit-text-size-adjust:none;-webkit-font-smoothing: antialiased;}
+h1, h2, h3, h4, h5, h6 
+{font-family:"Helvetica Neue", Helvetica, system-ui, 'Segoe UI', Roboto, sans-serif;line-height: 1em;}
+h2 {font-size: 60px; margin-top:20px; font-weight: 700;letter-spacing: -2px;}
+h3 {font-size: 20px; font-weight: 400;margin: 20px 0;}
+h6 {font-size:13px;text-transform:uppercase; color: #000; letter-spacing: 3px;  margin:100px 0 20px 0;}
+p {font-family:Antwerp, serif;font-size: 16px;line-height: 24px;margin:20px auto;max-width: 700px}
+blockquote {font-family:Antwerp Italic, serif; font-style: normal;font-size: 30px;line-height: 42px;margin:60px auto; }
+a{color:#EB0202;text-decoration:none;outline: none;}
+a:hover {color: #000; text-decoration: none;}
+hr { border: 0;height: 1px;background: #ccc;}
+img {max-width: 100%; width: 100%;}
+article {max-width: 860px; margin:10px auto;padding:50px 20px;}
+article p:first-of-type {font-size: 21px; line-height: 29px;}
+article p:first-of-type::first-letter {font-size: 100px; float: left; margin:37px 6px 10px 0; font-weight: 500; color: #000;}
+figure {margin:50px 0; width: 100%;}
+figcaption { font-family:Antwerp Italic, serif; font-style: normal; font-size:13px; margin:10px 0;}
+ table{max-width:760px; width: 100%; margin: 50px auto; border-top: 1px dashed #ccc;}
+    td, th {font-family:"Helvetica Neue", Helvetica, system-ui, 'Segoe UI', Roboto, sans-serif;}
+    th{font-size:14px;text-align: right; padding: 10px 10px 10px 0; border-bottom: 1px dashed #ccc; font-weight: 400; width: 40%; text-transform: uppercase;}
+    td{font-size:14px;text-align: left; padding: 10px 0 10px 10px; border-bottom: 1px dashed #ccc; font-weight: 600;}
+.links a {display: inline-block; width: 50px; margin:20px 10px;}
+.icon     {width: 30px; border-radius: 30px; margin:0;}
+}
+@media screen and (max-width:700px) {
+
+h1          {font-size: 38px;}
+article     {padding:20px}
+
+p           {max-width: 85%;}
+}
