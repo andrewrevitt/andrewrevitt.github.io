@@ -16,42 +16,42 @@
 @media all {
 html,body,main,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,figure,footer,header,menu,nav,section,menu,time,mark,audio,video {margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}
 body,html{height:100%}
-body {background: #fff; color: #1a1a1a;font-weight: normal;  font-size: 1em;text-rendering:optimizeLegibility;-webkit-text-size-adjust:none;-webkit-font-smoothing: antialiased;}
+body {background: #111; color: #eee;font-weight: normal;  font-size: 1em;text-rendering:optimizeLegibility;-webkit-text-size-adjust:none;-webkit-font-smoothing: antialiased;}
 h1, h2, h3, h4, h5, h6 
 {font-family:"Helvetica Neue", Helvetica, system-ui, 'Segoe UI', Roboto, sans-serif;line-height: 1em;}
 h2 {font-size: 60px; margin-top:20px; font-weight: 700;letter-spacing: -2px;}
-h3 {font-size: 20px; font-weight: 400;margin: 20px 0;}
-h6 {font-size:13px;text-transform:uppercase; color: #000; letter-spacing: 3px;  margin:100px 0 20px 0;}
+h3 {font-size: 20px; line-height: 26px; font-weight: 400;margin: 20px 0;}
+h6 {font-size:13px;text-transform:uppercase;  letter-spacing: 3px;  margin:100px 0 20px 0;}
 p {font-family:Antwerp, serif;font-size: 16px;line-height: 24px;margin:20px auto;max-width: 640px;}
 i {font-family:Antwerp Italic, serif; font-style: normal;}
-blockquote {font-family:Antwerp Italic, serif; font-style: normal;font-size: 30px;line-height: 42px;margin:60px auto; padding:30px 0; border-top:1px solid #eee; border-bottom:1px solid #eee; text-align: center; }
-hr { border: 0;height: 1px;background: #ccc;}
+blockquote {font-family:Antwerp Italic, serif; font-style: normal;font-size: 30px;line-height: 42px;margin:60px auto; padding:30px 0; border-top:1px solid #444; border-bottom:1px solid #444; text-align: center; }
+hr { border: 0;height: 1px;background: #444;}
 img {max-width: 100%; width: 100%;}
 header {max-width: 860px; margin:10px auto;padding:50px 20px;}
-header .icon     {width: 30px; border-radius: 30px; margin:0;}
-header h1 {font-size: 0; color: #fff;}
-header a {text-decoration: none; color: #000;}
-header a:hover {color: #900;}
+header .icon {width: 30px; border-radius: 30px; margin:0;}
+header h1 {font-size: 0; color: #111;}
+header a {text-decoration: none; color: #fff;}
+header a:hover {color: #c00;}
 
 main {max-width: 860px; margin:10px auto;padding:20px;}
 main ul {margin:20px 0;}
 main li {font-family:"Helvetica Neue", Helvetica, system-ui, 'Segoe UI', Roboto, sans-serif; font-size:16px;line-height: 24px; padding:10px;margin:0 0 0 20px;}
 main p {max-width: 100%;}
-main a {text-decoration: none; color: #000;}
-main a:hover {color: #900;}
+main a {text-decoration: none; color: #eee;}
+main a:hover {color: #c00;}
 
 article {max-width: 860px; margin:10px auto;padding:20px;}
 article p:first-of-type {font-size: 21px; line-height: 29px;}
-article p:first-of-type::first-letter {font-size: 100px; float: left; margin:37px 6px 10px 0; font-weight: 500; color: #000;}
-article a{color:#900;text-decoration:none;outline: none;border-bottom: 3px solid #eee;}
-article a:hover {color: #c00; text-decoration: none;}
+article p:first-of-type::first-letter {font-size: 100px; float: left; margin:37px 6px 10px 0; font-weight: 500;}
+article a{color:#c00;text-decoration:none;outline: none;border-bottom: 3px solid #444;}
+article a:hover {color: #f00; text-decoration: none;}
 
 figure {margin:50px 0; width: 100%;}
 figcaption { font-family:Antwerp Italic, serif; font-style: normal; font-size:13px; margin:10px 0;}
-table{max-width:760px; width: 100%; margin: 50px auto; border-top: 1px dashed #ccc;}
+table{max-width:760px; width: 100%; margin: 50px auto; border-top: 1px dashed #333;}
 td, th {font-family:"Helvetica Neue", Helvetica, system-ui, 'Segoe UI', Roboto, sans-serif;}
-th{font-size:14px;text-align: right; padding: 10px 10px 10px 0; border-bottom: 1px dashed #ccc; font-weight: 400; width: 40%; text-transform: uppercase;}
-td{font-size:14px;text-align: left; padding: 10px 0 10px 10px; border-bottom: 1px dashed #ccc; font-weight: 600;}
+th{font-size:14px;text-align: right; padding: 10px 10px 10px 0; border-bottom: 1px dashed #333; font-weight: 400; width: 40%; text-transform: uppercase;}
+td{font-size:14px;text-align: left; padding: 10px 0 10px 10px; border-bottom: 1px dashed #333; font-weight: 600;}
 
 
 }

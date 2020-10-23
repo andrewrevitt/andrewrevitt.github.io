@@ -11,11 +11,23 @@
 </url>
 <url>
   <loc>https://andrewrevitt.com/about/index.html</loc>
-  <priority>0.70</priority>
+  <priority>0.10</priority>
 </url>
 <url>
   <loc>https://andrewrevitt.com/articles/index.html</loc>
   <priority>0.50</priority>
+</url>
+<url>
+  <loc>https://andrewrevitt.com/articles/bunker-research-book.html</loc>
+  <priority>0.85</priority>
+</url>
+<url>
+  <loc>https://andrewrevitt.com/articles/arcteryx-alpha-sl-jacket.html</loc>
+  <priority>0.60</priority>
+</url>
+<url>
+  <loc>https://andrewrevitt.com/articles/bellroy-elements-sleeve.html</loc>
+  <priority>0.60</priority>
 </url>
 <url>
   <loc>https://andrewrevitt.com/articles/g-shock-mudmaster.html</loc>
@@ -30,37 +42,23 @@
   <priority>0.70</priority>
 </url>
 <url>
-  <loc>https://andrewrevitt.com/projects/affinity-publisher-templates.html</loc>
-  <priority>0.80</priority>
+  <loc>https://andrewrevitt.com/projects/index.html</loc>
+  <priority>0.50</priority>
 </url>
 <url>
-  <loc>https://andrewrevitt.com/projects/index.html</loc>
-  <priority>0.10</priority>
+  <loc>https://andrewrevitt.com/projects/affinity-publisher-templates.html</loc>
+  <priority>0.90</priority>
 </url>
-
 <url>
   <loc>https://andrewrevitt.com/projects/momo-vero.html</loc>
   <priority>0.70</priority>
 </url>
-
 <url>
   <loc>https://andrewrevitt.com/projects/depth-charge-book.html</loc>
   <priority>0.75</priority>
 </url>
-
 <url>
   <loc>https://andrewrevitt.com/projects/col-de-turini-stickers.html</loc>
-  <priority>0.60</priority>
-</url>
-
-<url>
-  <loc>https://andrewrevitt.com/projects/alpes-maritimes.html</loc>
   <priority>0.50</priority>
 </url>
-
-<url>
-  <loc>https://andrewrevitt.com/projects/chamonix.html</loc>
-  <priority>0.40</priority>
-</url>
-
 </urlset>
