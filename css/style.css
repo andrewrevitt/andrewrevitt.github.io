@@ -60,6 +60,11 @@ article figcaption { font-family:Antwerp Italic, serif; font-style: normal; font
 .columns        {display: grid; grid-template-columns: 1fr 1fr 1fr; grid-gap: 50px 50px;}
 .columns div    {display: block;}
 
+.store figure {background-color: #fff; display: block; padding: 0; border-radius: 3px; border:1px solid #fff;}
+.store h3 {font-weight: 700; line-height: 22px;}
+.store p {color:#111;font-family:"Helvetica Neue", Helvetica, system-ui, 'Segoe UI', Roboto, sans-serif; font-size:14px;line-height: 22px;padding: 0 10px; margin: 5px 0; }
+.store a {border: none; display: block;}
+
 table{max-width:760px; width: 100%; margin: 50px auto; border-top: 1px dashed #333;}
 td, th {font-family:"Helvetica Neue", Helvetica, system-ui, 'Segoe UI', Roboto, sans-serif;}
 th{font-size:14px;text-align: right; padding: 10px 10px 10px 0; border-bottom: 1px dashed #333; font-weight: 400; width: 40%; text-transform: uppercase;}
