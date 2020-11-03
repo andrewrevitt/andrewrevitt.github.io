@@ -1,14 +1,14 @@
 
 @font-face {
   font-family: 'Antwerp';
-  src: url("../fonts/Antwerp_LightWEB.woff2") format("woff2"), url("../fonts/Antwerp_LightWEB.woff") format("woff");
+  src: url("../fonts/Antwerp_Light.woff2") format("woff2");
   font-weight: 400;
   font-style: normal;
   font-stretch: normal; }
 
 @font-face {
   font-family: 'Antwerp Italic';
-  src: url("../fonts//Antwerp_LightItalicWEB.woff2") format("woff2"), url("../fonts//Antwerp_LightItalicWEB.woff") format("woff");
+  src: url("../fonts/Antwerp_LightItalic.woff2") format("woff2");
   font-weight: 400;
   font-style: normal;
   font-stretch: normal; }
@@ -70,7 +70,7 @@ td, th {font-family:"Helvetica Neue", Helvetica, system-ui, 'Segoe UI', Roboto, 
 th{font-size:14px;text-align: right; padding: 10px 10px 10px 0; border-bottom: 1px dashed #333; font-weight: 400; width: 40%; text-transform: uppercase;}
 td{font-size:14px;text-align: left; padding: 10px 0 10px 10px; border-bottom: 1px dashed #333; font-weight: 600;}
 
-footer {max-width: 900px; margin: 100px auto 20px auto;}
+footer {max-width: 900px; margin: 100px auto 20px auto; padding: 20px 20px 0 20px;}
 footer small {font-family:"Helvetica Neue", Helvetica, system-ui, 'Segoe UI', Roboto, sans-serif; font-size: 12px; padding: 30px 0; display: inline-block; float: left;}
 footer small:nth-of-type(2){float: right;}
 footer a {color: #c00;}
@@ -79,7 +79,7 @@ footer a {color: #c00;}
 @media screen and (max-width:700px) {
   h2          
   {font-size: 38px;letter-spacing: -1px;}
-  header, article, main,footer     
+  header, article, main     
   {padding:20px 20px 0 20px;}
   nav a {display: inline-block; font-family:"Helvetica Neue", Helvetica, system-ui, 'Segoe UI', Roboto, sans-serif;font-size: 14px;line-height: 24px; padding: 5px 8px;border-right: 1px solid #444;}
   nav a:last-of-type {border: none; padding-right: 0;}
