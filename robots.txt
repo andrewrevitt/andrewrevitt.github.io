@@ -1,4 +1,5 @@
-User-agent: Googlebot-Image
+User-agent: *
 Disallow: /img/
+Disallow: /fonts/
 
 Sitemap: http://andrewrevitt.com/sitemap.xml
