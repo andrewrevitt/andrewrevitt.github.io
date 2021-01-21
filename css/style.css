@@ -52,6 +52,7 @@ article figcaption { font-family:PT-Serif Italic, serif; font-style: normal; fon
 .store h3 {font-weight: 700; line-height: 22px;}
 .store p {color:#111;font-family:'Helvetica Neue', Helvetica, system-ui, 'Segoe UI', Roboto, sans-serif; font-size:14px;line-height: 22px;padding: 0 10px; margin: 5px 0; }
 .store a {border: none; display: block;}
+.cdt {width:30%; height: 100%; float: right; background:url(../img/cdt-sticker.png) no-repeat center center; background-size: contain;position: relative;z-index: 99;}
 
 table{max-width:760px; width: 100%; margin: 50px auto; border-top: 1px dashed #333;}
 td, th {font-family:'Helvetica Neue', Helvetica, system-ui, 'Segoe UI', Roboto, sans-serif;}
@@ -65,13 +66,13 @@ footer a {color: #c00;}
 .button {display: inline-block;border: none;font-family:'Helvetica Neue', Helvetica, system-ui, 'Segoe UI', Roboto, sans-serif; font-size: 12px;background-color: #900; color: #fff; padding: 10px 20px; border-radius: 7px; text-transform: uppercase; letter-spacing: .5px; font-weight: 500; text-decoration: none;}
 .button:hover {border: none; background-color: #f30;}
 }
-@media screen and (max-width:700px) {
+@media screen and (max-width:720px) {
   h2          
   {font-size: 38px;letter-spacing: -1px;}
-  header, article, main     
-  {padding:20px 20px 0 20px;}
-  section {max-width: 90%; margin:10px auto;padding: 0 20px; border-radius: 0px;}
-  nav a {display: inline-block; font-family:'Helvetica Neue', Helvetica, system-ui, 'Segoe UI', Roboto, sans-serif;font-size: 14px;line-height: 24px; padding: 5px 8px;border-right: 1px solid #444;}
+  header, article, main  
+  {padding:20px 15px 0 15px;}
+  section {margin:0 15px;padding: 0 15px; border-radius: 0px;}
+  nav a {display: inline-block; font-family:'Helvetica Neue', Helvetica, system-ui, 'Segoe UI', Roboto, sans-serif;font-size: 14px;line-height: 10px; padding: 10px 10px;border-right: 1px solid #444;}
   nav a:last-of-type {border: none; padding-right: 0;}
   .columns        
   {display: block; grid-template-columns: 1fr; grid-gap: 0; padding-bottom: 10px;}
