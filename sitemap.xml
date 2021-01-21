@@ -19,11 +19,11 @@
 </url>
 <url>
   <loc>https://andrewrevitt.com/articles/index.html</loc>
-  <priority>0.80</priority>
+  <priority>0.70</priority>
 </url>
 <url>
   <loc>https://andrewrevitt.com/articles/porsche-gt2rs.html</loc>
-  <priority>0.65</priority>
+  <priority>0.75</priority>
 </url>
 <url>
   <loc>https://andrewrevitt.com/articles/porsche-gt3rs.html</loc>
@@ -31,39 +31,43 @@
 </url>
 <url>
   <loc>https://andrewrevitt.com/articles/rebellion-r1.html</loc>
-  <priority>0.75</priority>
-</url>
-<url>
-  <loc>https://andrewrevitt.com/articles/bunker-research-book.html</loc>
-  <priority>0.85</priority>
-</url>
-<url>
-  <loc>https://andrewrevitt.com/articles/arcteryx-alpha-sl-jacket.html</loc>
   <priority>0.55</priority>
 </url>
 <url>
+  <loc>https://andrewrevitt.com/articles/bunker-research-book.html</loc>
+  <priority>0.45</priority>
+</url>
+<url>
+  <loc>https://andrewrevitt.com/articles/arcteryx-alpha-sl-jacket.html</loc>
+  <priority>0.25</priority>
+</url>
+<url>
   <loc>https://andrewrevitt.com/articles/bellroy-elements-sleeve.html</loc>
-  <priority>0.50</priority>
+  <priority>0.15</priority>
 </url>
 <url>
   <loc>https://andrewrevitt.com/articles/g-shock-mudmaster.html</loc>
-  <priority>0.60</priority>
+  <priority>0.20</priority>
 </url>
 <url>
   <loc>https://andrewrevitt.com/articles/seiko-skx007-divers-watch.html</loc>
-  <priority>0.65</priority>
+  <priority>0.30</priority>
 </url>
 <url>
   <loc>https://andrewrevitt.com/articles/timex-expedition-katmai-watch.html</loc>
-  <priority>0.70</priority>
+  <priority>0.40</priority>
 </url>
 <url>
   <loc>https://andrewrevitt.com/projects/index.html</loc>
   <priority>0.50</priority>
 </url>
 <url>
-  <loc>https://andrewrevitt.com/projects/chamonix-travel-guide-book.html</loc>
+  <loc>https://andrewrevitt.com/projects/col-de-turini-stickers.html</loc>
   <priority>0.90</priority>
+</url>
+<url>
+  <loc>https://andrewrevitt.com/projects/chamonix-travel-guide-book.html</loc>
+  <priority>0.70</priority>
 </url>
 <url>
   <loc>https://andrewrevitt.com/projects/A4-modular-grid-system.html</loc>
@@ -75,10 +79,10 @@
 </url>
 <url>
   <loc>https://andrewrevitt.com/projects/momo-vero.html</loc>
-  <priority>0.70</priority>
+  <priority>0.50</priority>
 </url>
 <url>
-  <loc>https://andrewrevitt.com/projects/col-de-turini-stickers.html</loc>
-  <priority>0.50</priority>
+  <loc>https://andrewrevitt.com/projects/porsche-gt2rs-vector.html</loc>
+  <priority>0.75</priority>
 </url>
 </urlset>
