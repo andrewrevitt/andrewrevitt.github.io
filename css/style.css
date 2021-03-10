@@ -50,8 +50,8 @@ figcaption { font-family:PT-Serif Italic, serif; font-style: normal; font-size:1
 
 .store img {border-radius: 5px;}
 .store p {font-family:'Helvetica Neue', Helvetica, system-ui, 'Segoe UI', Roboto, sans-serif; font-weight: bold; }
-.cdt {width:30%; height: 100%; float: right; background:url(../img/cdt-sticker.png) no-repeat center center; background-size: contain;position: relative;z-index: 99;}
-.matterhorn {width:35%; height: 100%; float: right; background:url(../img/matterhorn-sticker.png) no-repeat center center; background-size: contain;position: relative;z-index: 99;}
+.cdt {width:30%; height: 70%; float: right; background:url(../img/cdt-sticker.png) no-repeat center center; background-size: contain;position: relative;z-index: 99;}
+.matterhorn {width:35%; height: 70%; float: right; background:url(../img/matterhorn-sticker.png) no-repeat center center; background-size: contain;position: relative;z-index: 99;}
 .hero-text {width: 60%; height: 100%; display: table; float: left;}
 .middle-align {display: table-cell; vertical-align: middle; }
 
