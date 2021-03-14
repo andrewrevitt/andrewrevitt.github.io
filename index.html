@@ -15,20 +15,6 @@
 <link rel="icon" type="image/png" href="img/favicon-32x32.png" sizes="32x32">
 <link rel="icon" type="image/png" href="img/favicon-16x16.png" sizes="16x16">
 <link rel="stylesheet" href="css/style.css">
-<script type="text/javascript">
-randomNumber = Math.floor(Math.random()*2+1);  // Our Variable
-
-window.onload = function() {  // Our Function - calling the Variable with "if"
-	if (randomNumber == 1) {
-		document.getElementById("rand1").style.display = "inline";
-		document.getElementById("rand2").style.display = "none";
-	}
-	if (randomNumber == 2) {
-		document.getElementById("rand1").style.display = "none";
-		document.getElementById("rand2").style.display = "inline";
-	}
-}
-</script>
 </head>
 <body>
 <header>
@@ -39,33 +25,10 @@ window.onload = function() {  // Our Function - calling the Variable with "if"
   <h6>Andrew Revitt / Home</h6>
   <hr>
 </header>
-<div id="rand1">
-	<section style="background:url(img/cdt-bg.jpg) center center;background-size: cover;height: 50vh;">
-		<div class="hero-text">
-			<div class="middle-align">
-			<h2>Col de Turini</h2>
-			<h4>Vinyl stickers now available to buy</h4>
-			<br>
-			<a href="projects/col-de-turini-stickers.html" class="button">Learn More</a>
-		</div>
-		</div>
-		<figure class="cdt"></figure>
-	</section>
-</div>
-<div id="rand2">
-	<section style="background:url(img/matterhorn-bg.jpg) center center;background-size: cover;height: 50vh;">
-		<div class="hero-text">
-			<div class="middle-align">
-			<h2>Matterhorn</h2>
-			<h4>Vinyl stickers now available to buy</h4>
-			<br>
-			<a href="projects/matterhorn-stickers.html" class="button">Learn More</a>
-		</div>
-		</div>
-		<figure class="matterhorn"></figure>
-	</section>
-</div>
-<br clear="all">
+
+<main>
+	<a href="projects/super-alpine-magazine.html"><img src="img/sa-mag.jpg" alt="Super Alpine Magazine Digital Download"></a>
+</main>
 
 <main>
 	<h2>Andrew Revitt is a designer, writer, photographer and the founder of Super Alpine.</h2>
