@@ -11,7 +11,7 @@ h3 {font-size: 20px; line-height: 26px; font-weight: 700;margin: 20px 0;}
 h4 {font-size: 12px; line-height: 22px; font-weight: 700; text-transform: uppercase; letter-spacing: 1px}
 h5 {font-size: 13px; line-height: 24px; font-weight: 400; margin-bottom: 20px;}
 h6 {font-size:13px;text-transform:uppercase;  letter-spacing: 3px; margin: 20px 0;}
-p {font-family:PT-Serif, serif;font-size: 16px;line-height: 24px;margin:20px auto;max-width: 640px;}
+p {font-family:PT-Serif, serif;font-size: 16px;line-height: 24px;margin:20px auto;max-width: 600px;}
 i {font-family:PT-Serif Italic, serif; font-style: normal;}
 blockquote {font-family:PT-Serif Italic, serif; font-style: normal;font-size: 26px;line-height: 38px;margin:60px auto; padding:30px; border-top:1px solid #444; border-bottom:1px solid #444; text-align: center; }
 hr { border: 0;height: 1px;background: #444;}
@@ -29,7 +29,7 @@ section {max-width: 860px; margin:-10px auto 10px auto;padding: 0 50px; border-r
 main {max-width: 900px; margin:10px auto;padding:20px;}
 main ul {margin:20px 0 50px 0;}
 main li {font-family:'Helvetica Neue', Helvetica, system-ui, 'Segoe UI', Roboto, sans-serif; font-size:16px;line-height: 24px; padding:5px;margin:0 0 0 20px;}
-main p {max-width: 100%;}
+main p {margin:20px 0;}
 main li a {text-decoration: none; color: #eee;}
 main li a:hover {color: #c00;}
 p a {color:#eee;text-decoration:none;outline: none;border-bottom: 3px solid #900;}
