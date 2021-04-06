@@ -78,7 +78,7 @@ footer a {color: #c00;}
   .columns        
   {display: block; grid-template-columns: 1fr; grid-gap: 0; padding-bottom: 10px;}
   .columns div 
-  {margin: 20px 0 60px 0;}
+  {margin: 20px auto 60px auto; max-width: 90%;}
   .photogrid {display: block;}
   .photogrid img {height: auto; object-fit: cover;}
   .photogrid div {flex: none; max-width: 100%; height: auto;}
