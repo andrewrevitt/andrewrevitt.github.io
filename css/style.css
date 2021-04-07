@@ -13,7 +13,7 @@ h5 {font-size: 13px; line-height: 24px; font-weight: 400; margin-bottom: 20px;}
 h6 {font-size:13px;text-transform:uppercase;  letter-spacing: 3px; margin: 20px 0;}
 p {font-family:PT-Serif, serif;font-size: 16px;line-height: 24px;margin:20px auto;max-width: 600px;}
 i {font-family:PT-Serif Italic, serif; font-style: normal;}
-blockquote {font-family:PT-Serif Italic, serif; font-style: normal;font-size: 26px;line-height: 38px;margin:60px auto; padding:30px; border-top:1px solid #444; border-bottom:1px solid #444; text-align: center; }
+blockquote {font-family:PT-Serif Italic, serif; font-style: normal;font-size: 24px;line-height: 34px;margin:60px auto; padding:30px; border-top:1px solid #444; border-bottom:1px solid #444; text-align: center; }
 hr { border: 0;height: 1px;background: #444;}
 img {max-width: 100%; width: 100%;}
 header {max-width: 900px; margin:10px auto;padding:30px 20px 40px 20px;}
@@ -46,14 +46,11 @@ figcaption { font-family:PT-Serif Italic, serif; font-style: normal; font-size:1
 .photogrid div:nth-of-type(2) {flex: 68%; max-width: 68%;margin-left: 2%;}
 
 .columns        {display: grid; grid-template-columns: 1fr 1fr 1fr; grid-gap: 50px 50px;}
-.columns div    {display: block;}
-
-.store img {border-radius: 5px;}
-.store p {font-family:'Helvetica Neue', Helvetica, system-ui, 'Segoe UI', Roboto, sans-serif; font-weight: bold; }
-.cdt {width:30%; height: 70%; float: right; background:url(../img/cdt-sticker.png) no-repeat center center; background-size: contain;position: relative;z-index: 99;}
-.matterhorn {width:35%; height: 70%; float: right; background:url(../img/matterhorn-sticker.png) no-repeat center center; background-size: contain;position: relative;z-index: 99;}
-.hero-text {width: 60%; height: 100%; display: table; float: left;}
-.middle-align {display: table-cell; vertical-align: middle; }
+.columns div    {display: block; }
+.columns div a  {border: none; color: #fff; text-decoration: none;}
+.columns div a:hover  {border: none; color: #c00; text-decoration: none;}
+.columns div h3  {font-family:'Helvetica Neue', Helvetica, system-ui, 'Segoe UI', Roboto, sans-serif;font-size:18px; line-height: 22px; margin: 0;}
+.columns div p  {font-family:'Helvetica Neue', Helvetica, system-ui, 'Segoe UI', Roboto, sans-serif; font-size:14px; line-height:20px;margin: 5px 0 0 0;}
 
 table{max-width:760px; width: 100%; margin: 50px auto; border-top: 1px dashed #333;}
 td, th {font-family:'Helvetica Neue', Helvetica, system-ui, 'Segoe UI', Roboto, sans-serif;}
@@ -74,7 +71,7 @@ footer a {color: #c00;}
   section {margin:0 15px;padding: 0 15px; border-radius: 0px;}
   nav a {display: inline-block; font-family:'Helvetica Neue', Helvetica, system-ui, 'Segoe UI', Roboto, sans-serif;font-size: 14px;line-height: 10px; padding: 10px 10px;border-right: 1px solid #444;}
   nav a:last-of-type {border: none; padding-right: 0;}
-
+blockquote {font-size: 18px;line-height: 28px;margin:60px auto; padding:30px;}
   .columns        
   {display: block; grid-template-columns: 1fr; grid-gap: 0; padding-bottom: 10px;}
   .columns div 
